@@ -54,7 +54,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
     }
   }, [viewMode])
 
-  return <div id="map-container" className="relative top-0 w-screen min-h-24 z-0 grow" />
+  return <div id="map-container" className="relative top-0 w-screen h-full min-h-24 z-0 grow" />
 }
 
 export default MapComponent
