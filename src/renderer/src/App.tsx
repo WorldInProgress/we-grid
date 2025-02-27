@@ -6,11 +6,10 @@ import Layout from './app/layout'
 import Page from './app/page'
 
 function App(): JSX.Element {
-
   return (
     <>
       {/* <Layout children={ <></> } /> */}
-      <Page/>
+      <Page />
       {/* <HashRouter>
         <Routes>
           <Route path="/" element={<MapComponent/>}></Route>
