@@ -34,9 +34,9 @@ export default function Page() {
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 pt-0">
-          <div className="w-full flex-1 overflow-x-hidden">
+          <div className="min-h-[100vh] flex-1 overflow-hidden">
             <MapComponent />
-            <div style={{ width: '95%', height: '100%' }} />
+            <div style={{ width: '100%', height: '100%' }} />
           </div>
         </div>
       </SidebarInset>
