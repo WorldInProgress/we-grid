@@ -259,16 +259,11 @@ code {
   }
 }
 
-
 @layer components {
   .menu-item-1 {
     @apply text-xl;
   }
 }
-
-
-
-
 
 @layer base {
   * {
